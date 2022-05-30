@@ -74,7 +74,7 @@ h3 {
     color: #888;
 	width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task:focus
 .ul-task:fokus {
@@ -87,7 +87,6 @@ li {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,20 +116,16 @@ li > * {
 .delete .remove:hover {
     transform: rotateZ(0);
 }
-
 #completed-tasks .label-task {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
-
 .ul-task {
-    display:none
+    display:none;
 }
-
 .edit-mode .ul-task {
     display: inline-block;
 }
-
 .edit-mode .label-task {
     display: none;
 }
