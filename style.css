@@ -85,7 +85,7 @@ h3 {
 	border: 1px solid #ddd;
     background: #fff;
 }
-li {
+.block__item {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -93,7 +93,7 @@ li {
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+.block__item > * {
     vertical-align: middle;
 }
 .checkbox {
