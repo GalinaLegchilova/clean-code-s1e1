@@ -59,7 +59,7 @@ h3 {
 }
 .edit:hover,
 .add :hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 .task,
 .ul-task {
@@ -68,11 +68,10 @@ h3 {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
     border-radius: 6px;
+	border: 1px solid transparent;
     font-family: Lato, sans-serif;
-    color: #888;
+    color: #000;
 	width: 56%;
     display: inline-block;
     flex-grow: 1;
@@ -83,6 +82,8 @@ h3 {
 }
 #new-task {
     width: 318px;
+	border: 1px solid #ddd;
+    background: #fff;
 }
 li {
     overflow: hidden;
@@ -127,6 +128,9 @@ li > * {
 }
 .edit-mode .ul-task {
     display: inline-block;
+	border: 1px solid #ddd;
+    background: #fff;
+	color: #888;
 }
 .edit-mode .label-task {
     display: none;
