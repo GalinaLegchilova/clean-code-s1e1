@@ -2,14 +2,14 @@ body {
     background-color: #f8f8f8;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
 input,button{
-    outline:none;
+    outline: none;
 }
 h3 {
     color: #333;
@@ -128,9 +128,9 @@ li > * {
 }
 
 .edit-mode .ul-task {
-    display:inline-block;
+    display: inline-block;
 }
 
 .edit-mode .label-task {
-    display:none;
+    display: none;
 }
