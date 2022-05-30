@@ -13,14 +13,14 @@ article{
 article>img {
     width: 100%;
 }
-.more_inf {
+.more-inf {
     font-family: fantasy, cursive;
 	text-align: right;
     display: block;
 }
 
 @media (max-width:768px) {
-.more_inf { text-align: center;
+.more-inf { text-align: center;
 }
 }
 
@@ -29,7 +29,7 @@ article>img {
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.add-task {
     display: flex;
 	padding-top: 20px;
 }
