@@ -138,7 +138,7 @@ h3 {
 }
 
 .ul-task {
-  display:none;
+  display: none;
 }
 
 .block__item_edit-mode .ul-task {
@@ -152,7 +152,7 @@ h3 {
   display: none;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 	
   .more-inf {
     text-align: center;
